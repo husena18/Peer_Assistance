@@ -30,10 +30,11 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
 
-    <a href ="#" class = "navbar-brand navbar-left navName" style="color: black">Peer Assistance</a>
+    <a href="../index.html" class="navbar-brand navbar-left navName" style="color: black">Peer Assistance</a>
 
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" style="color: black" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+      <button type="button" class="navbar-toggle collapsed" style="color: black" data-toggle="collapse"
+        data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -50,13 +51,14 @@
     </form>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div id= "navbar" class="navbar-collapse collapse">
+    <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right navName2">
         <li><a href="../index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
 
         <li><a href="sign-in.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign In</a></li>
 
-        <li><a href="contact.html"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Contact</a></li>
+        <li><a href="contact.html"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Contact</a>
+        </li>
       </ul>
     </div>
 
@@ -82,8 +84,8 @@
     <div class="left-media-body col-md-8">
 
       <div class="dropdown" style="text-align:center">
-        <button class="btn btn-default dropdown-toggle" type="button"
-        id="drop-down-menu" data-toggle="dropdown">Choose City<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" id="drop-down-menu" data-toggle="dropdown">Choose
+          City<span class="caret"></span></button>
 
         <ul class="dropdown-menu active" aria-labelled-by="drop-down-menu">
           <li><a onClick="showHide('appetizer');" href="#">Vadodara</a></li>
@@ -92,315 +94,369 @@
         </ul>
       </div>
 
-        <!-- Appetizer -->
-        <div id="appetizer">
-          <center><h3>VADODARA</h3></center>
-          <hr>
-          <div class="media dish1">
-            <a class="media-left" onclick="return false">
-              <img class="media-object" src="../images/olive-garden/image1.jpg"
-              alt="Generic placeholder image">
-            </a>
+      <!-- Appetizer -->
+      <div id="appetizer">
+        <center>
+          <h3>VADODARA</h3>
+        </center>
+        <hr>
+        <div class="media dish1">
+          <a class="media-left" onclick="return false">
+            <img class="media-object" src="../images/olive-garden/image1.jpg" alt="Generic placeholder image">
+          </a>
 
-            <div class="media-body">
-              <h3 class="media-heading">FRIENDS SOCIETY<div class="pull-right">1</div></h3>
-              <p>Friends Society is a voluntary youth organization engaged in community service since August 1969 in Vadodara, India.t is to provide a meaningful alternative to the youth to spend their free time in a constructive manner – that is, by providing social services to people in the surrounding communities. For example, they organize visits to home for blind children or for physically disabled children. A benefit for the volunteers is that they realize self-development in many aspects of their lives, including leadership and communication skills.</p>
+          <div class="media-body">
+            <h3 class="media-heading">FRIENDS SOCIETY<div class="pull-right">1</div>
+            </h3>
+            <p>Friends Society is a voluntary youth organization engaged in community service since August 1969 in
+              Vadodara, India.t is to provide a meaningful alternative to the youth to spend their free time in a
+              constructive manner – that is, by providing social services to people in the surrounding communities. For
+              example, they organize visits to home for blind children or for physically disabled children. A benefit
+              for the volunteers is that they realize self-development in many aspects of their lives, including
+              leadership and communication skills.</p>
 
-              <div class="add-minus-button">
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+            <div class="add-minus-button">
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
                 onclick="changeQuantity(+1,1)">+</button>
-                <span id="quantity1-1" class="pull-right digit">0
-                  <script> displayQuantity(1);</script>
-                </span>
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+              <span id="quantity1-1" class="pull-right digit">0
+                <script> displayQuantity(1);</script>
+              </span>
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
                 onclick="changeQuantity(-1,1)">-</button>
-              </div>
-
             </div>
+
           </div>
-
-          <hr>
-          <div class="media dish2">
-            <a class="media-left" onclick="return false">
-              <img class="media-object" src="../images/olive-garden/image2.jpg"
-              alt="Generic placeholder image">
-            </a>
-
-            <div class="media-body">
-              <h3 class="media-heading">ASHA FOUNDATION<div class="pull-right">1</div></h3>
-              <p>ASHA FOUNDATION Non Governmental Organization is located in vadodara Gujarat . ASHA FOUNDATION is registered as a Trust at vadodara of state Gujarat with Ngo unique registration ID 'GJ/2012/0049790' . The NGO registration is done by Charity Commissioner with registration number 3136 on the date of 16-09-2011, Its parent ORganaisation is PaulFoundation. </p>
-
-              <div class="add-minus-button">
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(+1,2)">+</button>
-                <span id="quantity2-1" class="pull-right digit">0
-                  <script> displayQuantity(2);</script>
-                </span>
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(-1,2)">-</button>
-              </div>
-
-            </div>
-          </div>
-
-          <hr>
-          <div class="media dish3">
-            <a class="media-left" onclick="return false">
-              <img class="media-object" src="../images/olive-garden/image3.jpg"
-              alt="Generic placeholder image">
-            </a>
-
-            <div class="media-body">
-              <h3 class="media-heading">NEO FOUNDATION<div class="pull-right">1</div></h3>
-              <p>NEO FOUNDATION is a non-profit charitable trust that works on the upliftment of both ecological and social factors in rural areas of vadodara. This NEO FOUNDATION NGO charity is working on Key Issues of Agriculture, Education & Literacy, Housing, Land Resources, Panchayati Raj, Rural Development & Poverty Alleviation, Vocational Training, Women's Development & Empowerment.</p>
-
-              <div class="add-minus-button">
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(+1,3)">+</button>
-                <span id="quantity3-1" class="pull-right digit">0
-                  <script> displayQuantity(3);</script>
-                </span>
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(-1,3)">-</button>
-              </div>
-
-            </div>
-          </div>
-
-          <hr>
-          <div class="media dish4">
-            <a class="media-left" onclick="return false">
-              <img class="media-object" src="../images/olive-garden/image4.jpg"
-              alt="Generic placeholder image">
-            </a>
-
-            <div class="media-body">
-              <h3 class="media-heading">COSMO FOUNDATION <div class="pull-right">1</div></h3>
-              <p>Cosmo Foundation was established in 2008 as the philanthropic wing of Cosmo First Limited to spearhead the firm’s CSR initiatives. We started with a belief that “we can make a difference to the lesser privileged ones around” by strengthening mainstream education in rural areas with skill-based courses, running environmental programs, and eliminating local & social issues or taboos through awareness programs.</p>
-
-              <div class="add-minus-button">
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(+1,4)">+</button>
-                <span id="quantity4-1" class="pull-right digit">0
-                  <script> displayQuantity(4);</script>
-                </span>
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(-1,4)">-</button>
-              </div>
-
-            </div>
-          </div>
-
-
-        </div> <!-- End appetizer -->
-
-        <!-- Main Course -->
-        <div id="main-course">
-          <center><h3>DAHOD</h3></center>
-          <hr>
-          <div class="media main1">
-            <a class="media-left" onclick="return false">
-              <img class="media-object" src="../images/olive-garden/image5.jpg"
-              alt="Generic placeholder image">
-            </a>
-
-            <div class="media-body">
-              <h3 class="media-heading">BLIND WELFARE COUNCIL<div class="pull-right">1</div></h3>
-              <p>This organization is working in the most backward part of Dahod-Panchmahal Districts of Gujarat state. The people living in this area are poor, illiterate and belong to tribal casts (Adivasis). Our vision is to ensure that all the disabled people of Dahod and Panchmahals and Mahisagar districts have access to the right of equal opportunities leading to improved quality of life and full participation in the society with respect and dignity.</p>
-
-              <div class="add-minus-button">
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(+1)">+</button>
-                <span id="quantity" class="pull-right digit">0
-                  <script> displayQuantity();</script>
-                </span>
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(-1)">-</button>
-              </div>
-
-            </div>
-          </div>
-
-          <hr>
-          <div class="media main2">
-            <a class="media-left" onclick="return false">
-              <img class="media-object" src="../images/olive-garden/image6.jpg"
-              alt="Generic placeholder image">
-            </a>
-
-            <div class="media-body">
-              <h3 class="media-heading">NAVCHETNA GRAMVIKAS TRUST<div class="pull-right">1</div></h3>
-              <p>Gram Vikas Trust (GVT) is a voluntary organization working for the education, health and women’s empowerment in the underprivileged communities, especially with children and women.GVT was initiated with a view to evolving information and making linkage between the villagers and the government. We believed that knowledge would lead to awareness, which would further lead to self-development, empowerment and action.</p>
- 
-              <div class="add-minus-button">
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(+1)">+</button>
-                <span id="quantity" class="pull-right digit">0
-                  <script> displayQuantity();</script>
-                </span>
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(-1)">-</button>
-              </div>
-
-            </div>
-          </div>
-
-          <hr>
-          <div class="media main3">
-            <a class="media-left" onclick="return false">
-              <img class="media-object" src="../images/olive-garden/image7.jpg"
-              alt="Generic placeholder image">
-            </a>
-
-            <div class="media-body">
-              <h3 class="media-heading">ADIVASI KELAVANI MANDAL<div class="pull-right">1</div></h3>
-              <p>ADIVASI KELAVANI MANDAL Non Governmental Organization is located in Gujarat . ADIVASI KELAVANI MANDAL is registered as a Trust at DAHOD of state Gujarat with Ngo unique registration ID 'GJ/2015/0085887' . The NGO registration is done by Charity Commissioner with registration number E/2404 on the date of 28-02-1994, Its parent ORganaisation is A Compleate Social Organation. The Chairman of ADIVASI KELAVANI MANDAL is PARSINGBHAI B PARMAR and Chief functionary officer is PARSINGBHAI B PARMAR.</p>
-
-              <div class="add-minus-button">
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(+1)">+</button>
-                <span id="quantity" class="pull-right digit">0
-                  <script> displayQuantity();</script>
-                </span>
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(-1)">-</button>
-              </div>
-
-            </div>
-          </div>
-
-          <hr>
-          <div class="media main4">
-            <a class="media-left" onclick="return false">
-              <img class="media-object" src="../images/olive-garden/image8.jpg"
-              alt="Generic placeholder image">
-            </a>
-
-            <div class="media-body">
-              <h3 class="media-heading">SKY CHARITABLE TRUST<div class="pull-right">1</div></h3>
-              <p>Sky Charitable Trust is a non-profit organisation which works for the development of the agricultural sector. This NGO is a service aid to farmers all over gujarat with latest technologies and high quality seeds to sow. We run various awareness campaigns and construction programs for the upliftment of the agricultural community. We have won varoius national awards for the services we provide and many more volunteers join us everyday as helping hands to uplift agricultuure in india.</p>
-
-              <div class="add-minus-button">
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(+1)">+</button>
-                <span id="quantity" class="pull-right digit">0
-                  <script> displayQuantity();</script>
-                </span>
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(-1)">-</button>
-              </div>
-
-            </div>
-          </div>
-
-
         </div>
 
-        <!-- Dessert-->
-        <div id="dessert">
-          <center><h3>VALSAD</h3></center>
-          <hr>
-          <div class="media dess1">
-            <a class="media-left" onclick="return false">
-              <img class="media-object" src="../images/olive-garden/image9.jpg"
-              alt="Generic placeholder image">
-            </a>
+        <hr>
+        <div class="media dish2">
+          <a class="media-left" onclick="return false">
+            <img class="media-object" src="../images/olive-garden/image2.jpg" alt="Generic placeholder image">
+          </a>
 
-            <div class="media-body">
-              <h3 class="media-heading">BLUE HONOUR WELFARE ASSOCIATION<div class="pull-right">1</div></h3>
-              <p>BLUE HONOUR WELFARE ASSOCITION Non Governmental Organization is located in Valsad Gujarat . BLUE HONOUR WELFARE ASSOCITION is registered as a Society at Valsad of state Gujarat with Ngo unique registration ID 'GJ/2014/0074069' . The NGO registration is done by Registrar of Societies with registration number F1323 on the date of 16-11-2011, Its parent ORganaisation is PaulFoundation. The Chairman of BLUE HONOUR WELFARE ASSOCITION is Kuntaben Sanjaybhai Bhoya and Chief functionary officer is Kuntaben Sanjaybhai Bhoya. </p>
+          <div class="media-body">
+            <h3 class="media-heading">ASHA FOUNDATION<div class="pull-right">1</div>
+            </h3>
+            <p>ASHA FOUNDATION Non Governmental Organization is located in vadodara Gujarat . ASHA FOUNDATION is
+              registered as a Trust at vadodara of state Gujarat with Ngo unique registration ID 'GJ/2012/0049790' . The
+              NGO registration is done by Charity Commissioner with registration number 3136 on the date of 16-09-2011,
+              Its parent ORganaisation is PaulFoundation. </p>
 
-              <div class="add-minus-button">
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(+1)">+</button>
-                <span id="quantity" class="pull-right digit">0
-                  <script> displayQuantity();</script>
-                </span>
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(-1)">-</button>
-              </div>
-
+            <div class="add-minus-button">
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(+1,2)">+</button>
+              <span id="quantity2-1" class="pull-right digit">0
+                <script> displayQuantity(2);</script>
+              </span>
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(-1,2)">-</button>
             </div>
+
           </div>
+        </div>
 
-          <hr>
-          <div class="media dess2">
-            <a class="media-left" onclick="return false">
-              <img class="media-object" src="../images/olive-garden/image10.jpg"
-              alt="Generic placeholder image">
-            </a>
+        <hr>
+        <div class="media dish3">
+          <a class="media-left" onclick="return false">
+            <img class="media-object" src="../images/olive-garden/image3.jpg" alt="Generic placeholder image">
+          </a>
 
-            <div class="media-body">
-              <h3 class="media-heading">VALSAD RAKTDAN KENDRA<div class="pull-right">1</div></h3>
-              <p>Valsad Raktdan Kendra is located at R.N.C. Free Eye Hospital Compound , Opp:-Mamlatdar Office, Valsad in the Valsad district of Gujarat. Phone number, contact email and website address if available is provided above in the blood bank vital information section. Please refer to the location on Map if you want to visit this blood bank right now. Checkout other blood banks near Valsad Raktdan Kendra if this one is closed or if you cannot find your required blood type and amount of blood needed.</p>
+          <div class="media-body">
+            <h3 class="media-heading">NEO FOUNDATION<div class="pull-right">1</div>
+            </h3>
+            <p>NEO FOUNDATION is a non-profit charitable trust that works on the upliftment of both ecological and
+              social factors in rural areas of vadodara. This NEO FOUNDATION NGO charity is working on Key Issues of
+              Agriculture, Education & Literacy, Housing, Land Resources, Panchayati Raj, Rural Development & Poverty
+              Alleviation, Vocational Training, Women's Development & Empowerment.</p>
 
-              <div class="add-minus-button">
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(+1)">+</button>
-                <span id="quantity" class="pull-right digit">0
-                  <script> displayQuantity();</script>
-                </span>
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(-1)">-</button>
-              </div>
-
+            <div class="add-minus-button">
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(+1,3)">+</button>
+              <span id="quantity3-1" class="pull-right digit">0
+                <script> displayQuantity(3);</script>
+              </span>
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(-1,3)">-</button>
             </div>
+
           </div>
+        </div>
 
-          <hr>
-          <div class="media dess3">
-            <a class="media-left" onclick="return false">
-              <img class="media-object" src="../images/olive-garden/image11.jpg"
-              alt="Generic placeholder image">
-            </a>
+        <hr>
+        <div class="media dish4">
+          <a class="media-left" onclick="return false">
+            <img class="media-object" src="../images/olive-garden/image4.jpg" alt="Generic placeholder image">
+          </a>
 
-            <div class="media-body">
-              <h3 class="media-heading">MAHALAXMI MITRA MANDAL<div class="pull-right">1</div></h3>
-              <p>MAHALAXMI MITRA MANDAL Non Governmental Organization is located in Valsad Gujarat . MAHALAXMI MITRA MANDAL is registered as a Trust at Ahemdabad of state Gujarat with Ngo unique registration ID 'GJ/2013/0061770' . The NGO registration is done by Charity Commissioner with registration number GUJ/12051/AHEMDABAD on the date of 16-05-2006, Its parent ORganaisation is PaulFoundation. The Chairman of MAHALAXMI MITRA MANDAL is Chirag Bulsara and Chief functionary officer is Chirag Bulsara.
+          <div class="media-body">
+            <h3 class="media-heading">COSMO FOUNDATION <div class="pull-right">1</div>
+            </h3>
+            <p>Cosmo Foundation was established in 2008 as the philanthropic wing of Cosmo First Limited to spearhead
+              the firm’s CSR initiatives. We started with a belief that “we can make a difference to the lesser
+              privileged ones around” by strengthening mainstream education in rural areas with skill-based courses,
+              running environmental programs, and eliminating local & social issues or taboos through awareness
+              programs.</p>
 
-              </p>
-
-              <div class="add-minus-button">
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(+1)">+</button>
-                <span id="quantity" class="pull-right digit">0
-                  <script> displayQuantity();</script>
-                </span>
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(-1)">-</button>
-              </div>
-
+            <div class="add-minus-button">
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(+1,4)">+</button>
+              <span id="quantity4-1" class="pull-right digit">0
+                <script> displayQuantity(4);</script>
+              </span>
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(-1,4)">-</button>
             </div>
+
           </div>
+        </div>
 
-          <hr>
-          <div class="media dess4">
-            <a class="media-left" onclick="return false">
-              <img class="media-object" src="../images/olive-garden/image12.jpg"
-              alt="Generic placeholder image">
-            </a>
 
-            <div class="media-body">
-              <h3 class="media-heading">ATUL RURAL DEVELOPMENT FUND<div class="pull-right">1</div></h3>
-              <p>Atul Foundation was created to bring all activities related to serving society under one umbrella. The Foundation undertakes projects | activities, broadly under six Programs: Education, Empowerment, Health, Relief, Infrastructure and Conservation. While these Programs are currently focused in India, it will be the endeavour of Atul to establish such organisations in the countries in which it operates so as to serve society in such countries. Ultimately, what comes from the society must go back to it many times over.</p>
+      </div> <!-- End appetizer -->
 
-              <div class="add-minus-button">
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+      <!-- Main Course -->
+      <div id="main-course">
+        <center>
+          <h3>DAHOD</h3>
+        </center>
+        <hr>
+        <div class="media main1">
+          <a class="media-left" onclick="return false">
+            <img class="media-object" src="../images/olive-garden/image5.jpg" alt="Generic placeholder image">
+          </a>
+
+          <div class="media-body">
+            <h3 class="media-heading">BLIND WELFARE COUNCIL<div class="pull-right">1</div>
+            </h3>
+            <p>This organization is working in the most backward part of Dahod-Panchmahal Districts of Gujarat state.
+              The people living in this area are poor, illiterate and belong to tribal casts (Adivasis). Our vision is
+              to ensure that all the disabled people of Dahod and Panchmahals and Mahisagar districts have access to the
+              right of equal opportunities leading to improved quality of life and full participation in the society
+              with respect and dignity.</p>
+
+            <div class="add-minus-button">
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
                 onclick="changeQuantity(+1)">+</button>
-                <span id="quantity" class="pull-right digit">0
-                  <script> displayQuantity();</script>
-                </span>
-                <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+              <span id="quantity" class="pull-right digit">0
+                <script> displayQuantity();</script>
+              </span>
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
                 onclick="changeQuantity(-1)">-</button>
-              </div>
-
             </div>
+
           </div>
+        </div>
 
-        </div><hr>
+        <hr>
+        <div class="media main2">
+          <a class="media-left" onclick="return false">
+            <img class="media-object" src="../images/olive-garden/image6.jpg" alt="Generic placeholder image">
+          </a>
 
-        <!-- Drinks -->
-        <!-- <div id="drinks">
+          <div class="media-body">
+            <h3 class="media-heading">NAVCHETNA GRAMVIKAS TRUST<div class="pull-right">1</div>
+            </h3>
+            <p>Gram Vikas Trust (GVT) is a voluntary organization working for the education, health and women’s
+              empowerment in the underprivileged communities, especially with children and women.GVT was initiated with
+              a view to evolving information and making linkage between the villagers and the government. We believed
+              that knowledge would lead to awareness, which would further lead to self-development, empowerment and
+              action.</p>
+
+            <div class="add-minus-button">
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(+1)">+</button>
+              <span id="quantity" class="pull-right digit">0
+                <script> displayQuantity();</script>
+              </span>
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(-1)">-</button>
+            </div>
+
+          </div>
+        </div>
+
+        <hr>
+        <div class="media main3">
+          <a class="media-left" onclick="return false">
+            <img class="media-object" src="../images/olive-garden/image7.jpg" alt="Generic placeholder image">
+          </a>
+
+          <div class="media-body">
+            <h3 class="media-heading">ADIVASI KELAVANI MANDAL<div class="pull-right">1</div>
+            </h3>
+            <p>ADIVASI KELAVANI MANDAL Non Governmental Organization is located in Gujarat . ADIVASI KELAVANI MANDAL is
+              registered as a Trust at DAHOD of state Gujarat with Ngo unique registration ID 'GJ/2015/0085887' . The
+              NGO registration is done by Charity Commissioner with registration number E/2404 on the date of
+              28-02-1994, Its parent ORganaisation is A Compleate Social Organation. The Chairman of ADIVASI KELAVANI
+              MANDAL is PARSINGBHAI B PARMAR and Chief functionary officer is PARSINGBHAI B PARMAR.</p>
+
+            <div class="add-minus-button">
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(+1)">+</button>
+              <span id="quantity" class="pull-right digit">0
+                <script> displayQuantity();</script>
+              </span>
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(-1)">-</button>
+            </div>
+
+          </div>
+        </div>
+
+        <hr>
+        <div class="media main4">
+          <a class="media-left" onclick="return false">
+            <img class="media-object" src="../images/olive-garden/image8.jpg" alt="Generic placeholder image">
+          </a>
+
+          <div class="media-body">
+            <h3 class="media-heading">SKY CHARITABLE TRUST<div class="pull-right">1</div>
+            </h3>
+            <p>Sky Charitable Trust is a non-profit organisation which works for the development of the agricultural
+              sector. This NGO is a service aid to farmers all over gujarat with latest technologies and high quality
+              seeds to sow. We run various awareness campaigns and construction programs for the upliftment of the
+              agricultural community. We have won varoius national awards for the services we provide and many more
+              volunteers join us everyday as helping hands to uplift agricultuure in india.</p>
+
+            <div class="add-minus-button">
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(+1)">+</button>
+              <span id="quantity" class="pull-right digit">0
+                <script> displayQuantity();</script>
+              </span>
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(-1)">-</button>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- Dessert-->
+      <div id="dessert">
+        <center>
+          <h3>VALSAD</h3>
+        </center>
+        <hr>
+        <div class="media dess1">
+          <a class="media-left" onclick="return false">
+            <img class="media-object" src="../images/olive-garden/image9.jpg" alt="Generic placeholder image">
+          </a>
+
+          <div class="media-body">
+            <h3 class="media-heading">BLUE HONOUR WELFARE ASSOCIATION<div class="pull-right">1</div>
+            </h3>
+            <p>BLUE HONOUR WELFARE ASSOCITION Non Governmental Organization is located in Valsad Gujarat . BLUE HONOUR
+              WELFARE ASSOCITION is registered as a Society at Valsad of state Gujarat with Ngo unique registration ID
+              'GJ/2014/0074069' . The NGO registration is done by Registrar of Societies with registration number F1323
+              on the date of 16-11-2011, Its parent ORganaisation is PaulFoundation. The Chairman of BLUE HONOUR WELFARE
+              ASSOCITION is Kuntaben Sanjaybhai Bhoya and Chief functionary officer is Kuntaben Sanjaybhai Bhoya. </p>
+
+            <div class="add-minus-button">
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(+1)">+</button>
+              <span id="quantity" class="pull-right digit">0
+                <script> displayQuantity();</script>
+              </span>
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(-1)">-</button>
+            </div>
+
+          </div>
+        </div>
+
+        <hr>
+        <div class="media dess2">
+          <a class="media-left" onclick="return false">
+            <img class="media-object" src="../images/olive-garden/image10.jpg" alt="Generic placeholder image">
+          </a>
+
+          <div class="media-body">
+            <h3 class="media-heading">VALSAD RAKTDAN KENDRA<div class="pull-right">1</div>
+            </h3>
+            <p>Valsad Raktdan Kendra is located at R.N.C. Free Eye Hospital Compound , Opp:-Mamlatdar Office, Valsad in
+              the Valsad district of Gujarat. Phone number, contact email and website address if available is provided
+              above in the blood bank vital information section. Please refer to the location on Map if you want to
+              visit this blood bank right now. Checkout other blood banks near Valsad Raktdan Kendra if this one is
+              closed or if you cannot find your required blood type and amount of blood needed.</p>
+
+            <div class="add-minus-button">
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(+1)">+</button>
+              <span id="quantity" class="pull-right digit">0
+                <script> displayQuantity();</script>
+              </span>
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(-1)">-</button>
+            </div>
+
+          </div>
+        </div>
+
+        <hr>
+        <div class="media dess3">
+          <a class="media-left" onclick="return false">
+            <img class="media-object" src="../images/olive-garden/image11.jpg" alt="Generic placeholder image">
+          </a>
+
+          <div class="media-body">
+            <h3 class="media-heading">MAHALAXMI MITRA MANDAL<div class="pull-right">1</div>
+            </h3>
+            <p>MAHALAXMI MITRA MANDAL Non Governmental Organization is located in Valsad Gujarat . MAHALAXMI MITRA
+              MANDAL is registered as a Trust at Ahemdabad of state Gujarat with Ngo unique registration ID
+              'GJ/2013/0061770' . The NGO registration is done by Charity Commissioner with registration number
+              GUJ/12051/AHEMDABAD on the date of 16-05-2006, Its parent ORganaisation is PaulFoundation. The Chairman of
+              MAHALAXMI MITRA MANDAL is Chirag Bulsara and Chief functionary officer is Chirag Bulsara.
+
+            </p>
+
+            <div class="add-minus-button">
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(+1)">+</button>
+              <span id="quantity" class="pull-right digit">0
+                <script> displayQuantity();</script>
+              </span>
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(-1)">-</button>
+            </div>
+
+          </div>
+        </div>
+
+        <hr>
+        <div class="media dess4">
+          <a class="media-left" onclick="return false">
+            <img class="media-object" src="../images/olive-garden/image12.jpg" alt="Generic placeholder image">
+          </a>
+
+          <div class="media-body">
+            <h3 class="media-heading">ATUL RURAL DEVELOPMENT FUND<div class="pull-right">1</div>
+            </h3>
+            <p>Atul Foundation was created to bring all activities related to serving society under one umbrella. The
+              Foundation undertakes projects | activities, broadly under six Programs: Education, Empowerment, Health,
+              Relief, Infrastructure and Conservation. While these Programs are currently focused in India, it will be
+              the endeavour of Atul to establish such organisations in the countries in which it operates so as to serve
+              society in such countries. Ultimately, what comes from the society must go back to it many times over.</p>
+
+            <div class="add-minus-button">
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(+1)">+</button>
+              <span id="quantity" class="pull-right digit">0
+                <script> displayQuantity();</script>
+              </span>
+              <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(-1)">-</button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <hr>
+
+      <!-- Drinks -->
+      <!-- <div id="drinks">
           <center><h3>Drinks</h3></center>
           <hr>
           <div class="media drink1">
@@ -501,139 +557,141 @@
 
     </div> -->
 
-    <div class="right-checkout col-md-4">
-      <div class="panel panel-danger">
-        <div class="panel-heading">Total Volunteers!</div>
+      <div class="right-checkout col-md-4">
+        <div class="panel panel-danger">
+          <div class="panel-heading">Total Volunteers!</div>
 
-        <div class="panel-body">
-          <div id="check1">
+          <div class="panel-body">
+            <div id="check1">
 
-            <div class="info">
-              FRIENDS SOCIETY
-              <small class="quantity">
-                Quantity:
-                <span id="quantity1-2">
-                  <script> displayQuantity(1);</script>
-                </span>
-              </small>
+              <div class="info">
+                FRIENDS SOCIETY
+                <small class="quantity">
+                  Quantity:
+                  <span id="quantity1-2">
+                    <script> displayQuantity(1);</script>
+                  </span>
+                </small>
+              </div>
+              <div class="price">
+                1
+              </div>
+
             </div>
-            <div class="price">
-              1
+
+            <div id="check2">
+              <br>
+              <div class="info">
+                ASHA FOUNDATION
+                <small class="quantity">
+                  Quantity:
+                  <span id="quantity2-2">
+                    <script> displayQuantity(2);</script>
+                  </span>
+                </small>
+              </div>
+              <div class="price">
+                1
+              </div>
+
+            </div>
+
+            <div id="check3">
+              <br>
+              <div class="info">
+                NEO FOUNDATION
+                <small class="quantity">
+                  Quantity:
+                  <span id="quantity3-2">
+                    <script> displayQuantity(3);</script>
+                  </span>
+                </small>
+              </div>
+              <div class="price">
+                1
+              </div>
+
+            </div>
+
+
+            <div id="check4">
+              <br>
+              <div class="info">
+                COSMO FOUNDATION
+                <small class="quantity">
+                  Quantity:
+                  <span id="quantity4-2">
+                    <script> displayQuantity(4);</script>
+                  </span>
+                </small>
+              </div>
+              <div class="price">
+                1
+              </div>
+
             </div>
 
           </div>
-
-          <div id="check2">
-            <br>
-            <div class="info">
-              ASHA FOUNDATION
-              <small class="quantity">
-                Quantity:
-                <span id="quantity2-2">
-                  <script> displayQuantity(2);</script>
-                </span>
-              </small>
+          <div class="panel-footer">
+            <span>Subtotal:</span>
+            <div class="pull-right">Volunteers=
+              <span id="total">0
+                <script>displayTotal()</script>
+              </span>
             </div>
-            <div class="price">
-              1
-            </div>
-
           </div>
-
-          <div id="check3">
-            <br>
-            <div class="info">
-              NEO FOUNDATION
-              <small class="quantity">
-                Quantity:
-                <span id="quantity3-2">
-                  <script> displayQuantity(3);</script>
-                </span>
-              </small>
-            </div>
-            <div class="price">
-              1
-            </div>
-
-          </div>
-
-
-          <div id="check4">
-            <br>
-            <div class="info">
-              COSMO FOUNDATION
-              <small class="quantity">
-                Quantity:
-                <span id="quantity4-2">
-                  <script> displayQuantity(4);</script>
-                </span>
-              </small>
-            </div>
-            <div class="price">
-              1
-            </div>
-
-          </div>
-
         </div>
-        <div class="panel-footer">
-          <span>Subtotal:</span>
-          <div class="pull-right">Volunteers=
-            <span id="total">0<script>displayTotal()</script></span>
-          </div>
+
+        <center><a href="checkout.html" class="btn btn-primary btn-lg">Continue</a></center>
+      </div>
+
+    </div>
+
+    <!-- Footer Content -->
+    <footer class="footer-distributed container-fluid">
+      <div class="footer-left col-md-4">
+        <h3>Peer
+          <span>Assistance</span>
+        </h3>
+        <div class="footer-icons">
+          <a href="#" target="blank"><i class="fa fa-facebook-square"></i></a>
+          <a href="#" target="blank"><i class="fa fa-twitter"></i></a>
+          <a href="#" target="blank"><i class="fa fa-instagram"></i></a>
+        </div>
+        <br>
+        <p class="footer-company-name">Peer Assistance © 2022</p>
+      </div>
+      <div class="footer-center col-md-4">
+        <div>
+          <span class="glyphicon glyphicon-map-marker footer-icons"></span>
+          <p>
+            <span>Navrachana University</span>
+            Vasna Bhyli
+          </p>
+        </div>
+        <div>
+          <span class="glyphicon glyphicon-earphone footer-icons"></span>
+          <p> +91 7990393477 </p>
+        </div>
+        <div>
+          <span class="glyphicon glyphicon-envelope footer-icons"></span>
+          <p> peerassistance@gmail.com</p>
         </div>
       </div>
 
-      <center><a href="checkout.html" class="btn btn-primary btn-lg">Continue</a></center>
-    </div>
-
-  </div>
-
-  <!-- Footer Content -->
-  <footer class="footer-distributed container-fluid">
-    <div class="footer-left col-md-4">
-      <h3>Peer
-        <span>Assistance</span>
-       </h3>
-       <div class="footer-icons">
-         <a href="#" target="blank"><i class="fa fa-facebook-square"></i></a>
-         <a href="#" target="blank"><i class="fa fa-twitter"></i></a>
-         <a href="#" target="blank"><i class="fa fa-instagram"></i></a>
-       </div>
-       <br>
-      <p class="footer-company-name">Peer Assistance © 2022</p>
-    </div>
-    <div class="footer-center col-md-4">
-      <div>
-        <span class="glyphicon glyphicon-map-marker footer-icons"></span>
-        <p>
-          <span>Navrachana University</span>
-           Vasna Bhyli
+      <div class="footer-right col-md-4">
+        <p class="footer-company-about">
+          <span>About Peer Assistance:</span>
+          Peer Assistance is a platform where people can find ngo around them in order to volunteer or in need.
         </p>
       </div>
-      <div>
-        <span class="glyphicon glyphicon-earphone footer-icons"></span>
-        <p> +91 7990393477 </p>
-      </div>
-      <div>
-        <span class="glyphicon glyphicon-envelope footer-icons"></span>
-        <p> peerassistance@gmail.com</p>
-      </div>
-    </div>
+    </footer>
 
-    <div class="footer-right col-md-4">
-      <p class="footer-company-about">
-        <span>About Peer Assistance:</span>
-        Peer Assistance is a platform where people can find ngo around them in order to volunteer or in need.
-      </p>
-    </div>
-  </footer>
-
-<!-- Javascript Libs -->
-<script src="../js/jquery-3.1.1.min.js"></script>
-<script src="../libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="../js/switch.js"></script>
-<script type="text/javascript" src="../js/menu.js"></script>
+    <!-- Javascript Libs -->
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/switch.js"></script>
+    <script type="text/javascript" src="../js/menu.js"></script>
 
 </body>
 
